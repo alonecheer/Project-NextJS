@@ -1,12 +1,13 @@
 import '../styles/style.css'
 import { Avatar, Icon } from 'antd';
 import Button from '@material-ui/core/Button';
+import Router from 'next/router'
 function MainLayouts() {
 
     return (
         <div>
             <div className="container">
-                <Button href='/options'>
+                <Button onClick={()=>{Router.push('/options')}}>
                     <Icon type="caret-left" />
                     Options
                     </Button>

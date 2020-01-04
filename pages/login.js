@@ -3,7 +3,7 @@ import { Form, Icon, Input, Button } from 'antd'
 import 'antd/dist/antd.css'
 import '../styles/style.css'
 import Link from 'next/link';
-
+import Router from 'next/router'
 
 function Login() {
     var state = {
@@ -33,7 +33,7 @@ function Login() {
                 </Form.Item>
                 
 
-                    <Button href="/options" type="primary" block>
+                    <Button onClick={()=>{ Router.push('/options')}} type="primary" block>
                         Sing In
                     </Button>
 
