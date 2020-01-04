@@ -1,0 +1,117 @@
+/*--------------------- Background and Body ---------------------*/
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+.bg{
+    display: flex;
+    background-image: url(../static/images/image-bg-blur.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*-----------------------------------------------------------------*/
+/*-------------------- Box Login and Box Options ------------------*/
+.boxlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px0;
+} 
+.box {
+    display: flex;
+    -webkit-flex-direction: column; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    line-height: 50px; 
+    text-align: center; 
+}
+#box1 {
+    display: flex;
+    -webkit-flex-direction: column; 
+    flex-direction: column; 
+    line-height: 50px; 
+    width: 250px;
+    height: 50px;
+    color: #F5F7FA;
+    font-size: 30px;
+    text-align: center; 
+
+}
+#box2 {
+    display: flex;
+    -webkit-flex-direction: column; 
+    flex-direction: column; 
+    justify-content: space-around;
+    width: 400px;
+    height: 300px;
+    color: #F5F7FA;
+}
+/*-----------------------------------------------------------------*/
+/*---------------------- Container MainLayoyt  --------------------*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding-left: 10px;
+  width: 100;
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 2px;
+  background-color: rgb(0, 0, 0,0.2);
+}
+.topnav  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  margin-top:2.5px;
+  overflow: hidden;
+  padding-right: 10px;
+}
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*-----------------------------------------------------------------*/
+/*----------------------- Avatar MainLayoyt ----------------------*/
+.avatar2 {
+  float: right;
+  margin: 2.5px;
+}
+/*-----------------------------------------------------------------*/
+/*-------------------------- Block Insert -------------------------*/
+.container-fromInsert{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.fromInsert{
+  background-color: #ddd;
+  width: 900px;
+  height: 450px;
+  border-radius: 12px;
+}
+.example-input .ant-input {
+  width: 100px;
+  margin: 0 8px 8px 0;
+}
+/*-----------------------------------------------------------------*/
